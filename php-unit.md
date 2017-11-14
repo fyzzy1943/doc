@@ -1,9 +1,7 @@
----
 
 
----
 
-<blockquote>
-<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>
-
+> Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjI5MzcxNDgwXX0=
+-->
