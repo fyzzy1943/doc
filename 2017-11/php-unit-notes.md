@@ -15,6 +15,10 @@
 
 https://phpunit.de/manual/6.4/zh_cn/index.html
 
+同步测试
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTcyNDAxNCwxNjkyNTI1MzhdfQ==
+eyJoaXN0b3J5IjpbLTg0NTMwNDIzNSwyMTMxNzI0MDE0LDE2OT
+I1MjUzOF19
 -->
