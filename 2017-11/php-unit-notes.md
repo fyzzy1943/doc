@@ -14,18 +14,34 @@
 
 https://phpunit.de/manual/6.4/zh_cn/index.html
 
+https://phpunit.de/manual/5.7/zh_cn/index.html
+
 同步测试
 
 ### 版本问题
 
 php5.6 需要用主版本为 5的 phpunit，当前最新版本是 5.7，将在2018年2月2日停止维护。
 
+php7，7.1，7.2 可以使用 phpunit 6。
+
 使用lumen可以直接执行 `vendor/phpunit/phpunit/phpunit` 来运行测试。
+
+### 数据库测试
+
+```
+public function testDatabase()
+{
+    // Make call to application...
+
+    $this->seeInDatabase('users', ['email' => 'sally@foo.com']);
+}
+```
 
 ### !!
 
 在设计程序的时候就要思考怎么测试，程序的依赖关系，确定的输入和输出。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5NzU2OTQsLTEzMDg0NDg0NDZdfQ==
+eyJoaXN0b3J5IjpbMjA3NTUwOTYwMSwyNDk3NTY5NCwtMTMwOD
+Q0ODQ0Nl19
 -->
