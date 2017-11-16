@@ -73,6 +73,8 @@ class ExampleTest extends TestCase
 
 参考 `database/factories/ModelFactory.php` 文件。`Faker\Generator` 可以生成随机的符合格式数据。
 
+faker 文档：https://github.com/fzaninotto/Faker
+
 ##### 在 test 中使用 工厂类
 
 - 使用 `make` 方法
@@ -91,6 +93,5 @@ public function testDatabase()
 在设计程序的时候就要思考怎么测试，程序的依赖关系，确定的输入和输出。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDMyNjE5NzAsLTE1ODkyNTQ4NzNdfQ
-==
+eyJoaXN0b3J5IjpbMTQxMzI1Mzc4MV19
 -->
