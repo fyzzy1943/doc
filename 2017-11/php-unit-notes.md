@@ -16,7 +16,10 @@ https://phpunit.de/manual/6.4/zh_cn/index.html
 
 同步测试
 
+### !!
+
+在设计程序的时候就要思考怎么测试，程序的依赖关系，确定的输入和输出。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjI0NTE4N119
+eyJoaXN0b3J5IjpbLTMwNDA0NzQ5Ml19
 -->
