@@ -43,7 +43,7 @@ public function testDatabase()
 }
 ```
 
-我们可以使用一些方式来使操作不影响到数据库，比如使用事务。在test中使用 `DatabaseTransactions` trait 即可。还可以使用migration
+我们可以使用一些方式来使操作不影响到数据库，比如使用事务。在test中使用 `DatabaseTransactions` trait 即可。还可以使用 migration，但是我们的数据库操
 
 ```
 <?php
@@ -72,6 +72,6 @@ class ExampleTest extends TestCase
 在设计程序的时候就要思考怎么测试，程序的依赖关系，确定的输入和输出。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTU5MzM2NjYsLTY4NzI0MTEzMiwyND
+eyJoaXN0b3J5IjpbLTEzMDE4Njg3MDQsLTY4NzI0MTEzMiwyND
 k3NTY5NCwtMTMwODQ0ODQ0Nl19
 -->
