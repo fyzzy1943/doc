@@ -8,7 +8,6 @@
 
 代码是为了什么，当然是为了重复运行。如何保持unit test代码的稳定？主要靠好的API设计。API切实正确切割了需求，那么在重构的时候API就基本不用变化，unit test也不用重写。以后你重构的时候，只要你的unit test覆盖的够好，基本跑一遍就知道有没有改成傻逼。可以节省大量的时间。
 
-
 ### 什么是可测试的代码
 
 ### 手册
@@ -19,6 +18,5 @@ https://phpunit.de/manual/6.4/zh_cn/index.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTMwNDIzNSwyMTMxNzI0MDE0LDE2OT
-I1MjUzOF19
+eyJoaXN0b3J5IjpbMTM5NjI0NTE4N119
 -->
