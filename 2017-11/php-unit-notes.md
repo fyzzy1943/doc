@@ -18,12 +18,12 @@ https://phpunit.de/manual/6.4/zh_cn/index.html
 
 ### 版本问题
 
-php5.6 需要用zhu'ban'ben
+php5.6 需要用主版本为
 
 ### !!
 
 在设计程序的时候就要思考怎么测试，程序的依赖关系，确定的输入和输出。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4NzU0MzhdfQ==
+eyJoaXN0b3J5IjpbLTEzMDg0NDg0NDZdfQ==
 -->
