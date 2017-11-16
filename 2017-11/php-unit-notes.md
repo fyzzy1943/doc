@@ -67,11 +67,12 @@ class ExampleTest extends TestCase
 }
 ```
 
+填充数据库，参考 `database/factories/ModelFactory.php` 文件。`Faker\Generator` 可以生成随机的符合格式数据。
+
 ### !!
 
 在设计程序的时候就要思考怎么测试，程序的依赖关系，确定的输入和输出。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODYzMDU1MywtNjg3MjQxMTMyLDI0OT
-c1Njk0LC0xMzA4NDQ4NDQ2XX0=
+eyJoaXN0b3J5IjpbLTE1ODkyNTQ4NzNdfQ==
 -->
