@@ -7,7 +7,6 @@
 ### 单元测试的意义
 
 代码是为了什么，当然是为了重复运行。如何保持unit test代码的稳定？主要靠好的API设计。API切实正确切割了需求，那么在重构的时候API就基本不用变化，unit test也不用重写。以后你重构的时候，只要你的unit test覆盖的够好，基本跑一遍就知道有没有改成傻逼。可以节省大量的时间。 --- 轮子哥
-
 ### 什么是可测试的代码
 
 ### 手册
@@ -16,7 +15,7 @@ https://phpunit.de/manual/6.4/zh_cn/index.html
 
 https://phpunit.de/manual/5.7/zh_cn/index.html
 
-同步测试
+测试
 
 ### 版本问题
 
@@ -90,8 +89,9 @@ public function testDatabase()
 
 ### !!
 
-在设计程序的时候就要思考怎么测试，程序的依赖关系，确定的输入和输出。
+在设计程序的时候就要思考怎么测试，程序的依赖关系，确定的输入和输出。同步测试
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzI1Mzc4MV19
+eyJoaXN0b3J5IjpbLTE1MTU0NDI2MTcsMTQxMzI1Mzc4MV19
 -->
